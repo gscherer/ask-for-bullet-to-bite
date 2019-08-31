@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="PrimaryID">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Ask for a Bullet to Bite</dc:title>
+        <dc:identifier id="PrimaryID">urn:uuid:5A929A03-7ED6-4D2C-89EE-FE799EAB5F52</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:creator opf:role="aut" opf:file-as="Ph.D., Billy Scherer">Billy Scherer Ph.D.</dc:creator>
+        <meta name="cover" content="cover-image"></meta>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"></item>
+        <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="contents" href="contents.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body" href="body.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body1" href="body1.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body2" href="body2.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body3" href="body3.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body4" href="body4.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body5" href="body5.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body6" href="body6.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body7" href="body7.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="body8" href="body8.xhtml" media-type="application/xhtml+xml"></item>
+        <item id="stylesheet-css" href="css/stylesheet.css" media-type="text/css"></item>
+        <item id="stylesheet1-css" href="css/stylesheet1.css" media-type="text/css"></item>
+        <item id="stylesheet2-css" href="css/stylesheet2.css" media-type="text/css"></item>
+        <item id="stylesheet3-css" href="css/stylesheet3.css" media-type="text/css"></item>
+        <item id="stylesheet4-css" href="css/stylesheet4.css" media-type="text/css"></item>
+        <item id="stylesheet6-css" href="css/stylesheet6.css" media-type="text/css"></item>
+        <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg"></item>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover" linear="yes"></itemref>
+        <itemref idref="contents" linear="yes"></itemref>
+        <itemref idref="body" linear="yes"></itemref>
+        <itemref idref="body1" linear="yes"></itemref>
+        <itemref idref="body2" linear="yes"></itemref>
+        <itemref idref="body3" linear="yes"></itemref>
+        <itemref idref="body4" linear="yes"></itemref>
+        <itemref idref="body5" linear="yes"></itemref>
+        <itemref idref="body6" linear="yes"></itemref>
+        <itemref idref="body7" linear="yes"></itemref>
+    </spine>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.xhtml"></reference>
+        <reference type="toc" title="Contents" href="contents.xhtml"></reference>
+    </guide>
+</package>
